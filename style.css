@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #41EAD4;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.Navigation a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 1.2em;
+    padding-left: 30px;
+
+}
+ 
+.Navigation a:hover{
+    color: black;
+    
+
+}
+
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(./images/top-view-notebooks-accessories-studying-library-school-yellow-background-idea-education_109549-3281.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: white;
+    font-size: 6em;
+    font-weight: 600;
+}
+
+.main h3 {
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 10px;
+    margin: bottom 30px;
+    letter-spacing: 1px;
+}
+
+.mainbtn{
+    text-decoration: none;
+    color: white;
+    background-color: #fb8500;
+    font-size: 1.2em;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    margin: 40px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+}
+
+.mainbtn:hover{
+    background-color: #fb5607;
+    transform: scale(1.1);
+
+}
+
+
+.Grade{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.Grade-10{
+    background-color: grey;
+    width: 21.25em;
+    box-shadow: 0 5px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.Grade-10:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+
+}
+
+.Info{
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+}
